@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MUJI</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+	<style>
+
+		*{
+			font-family: 'Noto Sans KR', sans-serif;
+		}
+
+		.dropdown{
+			float: left;
+			margin-left: 16px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		.d-flex{
+			float: right;
+			margin-right: 16px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+		.product-docu{
+			width: 50%;
+			clear: both;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 32px;
+			box-sizing: border-box;
+			height: 400px;
+			box-shadow: 5px 5px 10px #cccccc;
+			border-radius: 12px;
+			margin-bottom: 80px;
+			margin-top: 160px;
+		}
+
+		.product-info{
+			color: #424242;
+		}
+
+		.product-info h2{
+			font-size: 28px;
+			font-weight: 600;
+			margin-bottom: 12px;
+
+		}
+
+		.product-info .price{
+			font-size: 24px;
+			font-weight: 600;
+			margin-bottom: 12px;
+		}
+
+		.product-docu img{
+			padding: 20px 10px;
+			position: relative;
+			float: left;
+		}
+
+		.product-info .info{
+			font-size: 18px;
+			font-weight: 400;
+		}
+
+		.btn btn-primary{
+			margin-left: 20px;
+		}
+
+		.option{
+			float: left;
+		}
+
+		.infopic{
+			margin-left: 27%;
+			margin-top: 40px;
+		}
+
+		footer{
+			padding: 40px 0 40px;
+			text-align: center;
+			background-color:#424242; 
+		}
+
+		footer .sns li{
+			display: inline-block;
+			margin-right: 30px;
+		}
+
+		footer .footerlogo{
+			font-size: 40px;
+			font-weight: 900;
+			color: #ffffff;
+			margin: 40px 0 20px;
+		}
+
+		footer ul li{
+			font-size: 16px;
+			line-height: 1.6;
+		}
+
+		.copyright{
+			font-size: 14px;
+			font-weight: 100;
+			display: block;
+			margin-top: 20px;
+			color: #E0E0E0;
+			list-style: none;
+		}
+
+		</style>
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html" style="color: #860f26; font-weight: 900;">MUJI</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page5.html">About MUJI</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.muji.com/storelocator/?c=kr">매장정보</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.muji.com/">Global site</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#">로그인</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">MY PAGE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">주문/배송</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">고객센터</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="tab">
+	<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #ffffff; border-color: #ffffff; color: #860f26; font-weight: 600;">
+    MUJI특별기획
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="page3.html">인기상품</a></li>
+    <li><a class="dropdown-item" href="page3.html">신상품</a></li>
+    <li><a class="dropdown-item" href="page3.html">온라인 한정사이즈</a></li>
+  </ul>
+</div>
+<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #ffffff; border-color: #ffffff; color: #860f26; font-weight: 600;">
+    할인상품
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="page3.html">가격 인하</a></li>
+    <li><a class="dropdown-item" href="page3.html">기간 한정</a></li>
+  </ul>
+</div>
+<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #ffffff; border-color: #ffffff; color: #860f26; font-weight: 600;">
+    아울렛
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="page3.html">의복잡화 아울렛</a></li>
+    <li><a class="dropdown-item" href="page3.html">생활잡화 아울렛</a></li>
+  </ul>
+</div>
+
+<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #ffffff; border-color: #ffffff; color: #860f26; font-weight: 600;">
+    의류잡화
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="page3.html">MUJI LABO</a></li>
+    <li><a class="dropdown-item" href="page3.html">남성복</a></li>
+    <li><a class="dropdown-item" href="page3.html">여성복</a></li>
+    <li><a class="dropdown-item" href="page3.html">아동복/마터니티</a></li>
+    <li><a class="dropdown-item" href="page3.html">이너웨어</a></li>
+    <li><a class="dropdown-item" href="page3.html">가방/신발</a></li>
+    <li><a class="dropdown-item" href="page3.html">액세서리/양말/우산</a></li>
+  </ul>
+</div>
+
+<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="page2.html" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #ffffff; border-color: #ffffff; color: #860f26; font-weight: 600;">
+    생활잡화
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="page3.html">패브릭</a></li>
+    <li><a class="dropdown-item" href="page3.html">가구/인테리어</a></li>
+    <li><a class="dropdown-item" href="page3.html">주방/생활용품</a></li>
+    <li><a class="dropdown-item" href="page3.html">헬스&뷰티/아로마</a></li>
+    <li><a class="dropdown-item" href="page3.html">화장품</a></li>
+    <li><a class="dropdown-item" href="page3.html">전자제품/기프트</a></li>
+    <li><a class="dropdown-item" href="page3.html">문구</a></li>
+  </ul>
+</div>
+
+<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #ffffff; border-color: #ffffff; color: #860f26; font-weight: 600;">
+    식품
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="page3.html">과자/음료/소스</a></li>
+  </ul>
+</div>
+<form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="검색어를 입력해주세요" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit" style="color: #ffffff; border-color: #860f26; background-color: #860f26; ">Search</button>
+      </form>
+</div>
+
+<div class="product-docu">
+	<div class="img">
+		<img src="images/product2-1-2.png">
+	</div>
+	<div class="product-info">
+		<h2>우레탄폼 저반발 퀼트 · 베개 · 43x63</h2>
+		<p class="price">53,000원</p>
+		<p class="info">배송비: 3000원<br>배송정보: 3일 이내 발송(토, 일, 공휴일 제외)<br>제조사/원산지: 양품계획/MADE IN CHINA</p>
+		<div class="option">
+			<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #ffffff; color: #424242; border-color: #860f26;">
+    수량을 선택하세요
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">1</a></li>
+    <li><a class="dropdown-item" href="#">2</a></li>
+    <li><a class="dropdown-item" href="#">3</a></li>
+    <li><a class="dropdown-item" href="#">4</a></li>
+  </ul>
+</div>
+<div>
+	<a class="btn btn-primary" href="#" role="button" style="background-color: #860f26; border-color: #860f26;">구매하기</a>
+</div>
+		</div>
+	</div>
+	
+</div>
+<hr style="width: 60%; height: 2px; color: #BDBDBD; margin-left: 20%;">
+<img class="infopic" src="images/info1.jpg">
+
+<footer>
+	<ul class="sns">
+		<li><a href="#"><img src="instagram.png" alt=""></a></li>
+		<li><a href="#"><img src="facebook.png" alt=""></a></li>
+	</ul>
+	<h2 class="footerlogo">MUJI</h2>
+	<ul class="copyright">
+		<li>롯데쇼핑 주식회사 대표이사 강희태</li>
+		<li>서울특별시 송파구 올림픽로 300 롯데월드타워 26층</li>
+		<li>사업자등록번호:529-85-00774(롯데쇼핑(주)e커머스사업부)</li>
+		<li>통신판매업 신고: 2019-서울송파-0158</li>
+	</ul>
+
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

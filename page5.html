@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MUJI</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+	<style>
+
+		*{
+			font-family: 'Noto Sans KR', sans-serif;
+		}
+
+		.dropdown{
+			float: left;
+			margin-left: 16px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		.d-flex{
+			float: right;
+			margin-right: 16px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+		footer{
+			padding: 40px 0 40px;
+			text-align: center;
+			background-color:#424242; 
+		}
+
+		footer .sns li{
+			display: inline-block;
+			margin-right: 30px;
+		}
+
+		footer .footerlogo{
+			font-size: 40px;
+			font-weight: 900;
+			color: #ffffff;
+			margin: 40px 0 20px;
+		}
+
+		footer ul li{
+			font-size: 16px;
+			line-height: 1.6;
+		}
+
+		.copyright{
+			font-size: 14px;
+			font-weight: 100;
+			display: block;
+			margin-top: 20px;
+			color: #E0E0E0;
+			list-style: none;
+		}
+
+		.title{
+			margin-top: 120px;
+			padding: 0 0 28px;
+			font-size: 42px;
+			color: #860f26;
+			text-align: center;
+			font-weight: 900;
+			letter-spacing: -1.4px;
+		}
+
+		.info{
+			padding: 0 0 24px;
+			font-size: 20px;
+			color: #424242;
+			line-height: 32px;
+			text-align: center;
+			font-weight: 400;
+		}
+
+		img{
+			width: 60%;
+			margin-left: 20%;
+			margin-right: auto;
+			box-shadow: 5px 2px 10px 2px rgba(0, 0, 0, 0.05);
+
+		}
+
+
+		.content_container{
+			margin-top: 40px;
+			margin-left: 20%;
+			margin-right: 20%;
+			margin-bottom: 120px;
+		}
+
+		.box_left{
+			display: inline-block;
+			vertical-align: top;
+			width: 24%;
+			font-size: 20px;
+			color: #860f26;
+			line-height: 28px;
+			font-weight: 600;
+		}
+
+		.box_right{
+			display: inline-block;
+			width: 75%;
+			font-size: 14px;
+			color: #424242;
+		}
+
+		.table th{
+			height: 56px;
+			border-bottom: 1px solid #BDBDBD;
+			font-size: 14px;
+			color: #424242;
+			text-align: left;
+		}
+
+		
+
+		.box_text{
+			margin top: 14px;
+			line-height: 1.8;
+		}
+
+		caption{
+			font-size: 10px;
+			color: #BDBDBD;
+		}
+
+		</style>
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html" style="color: #860f26; font-weight: 900;">MUJI</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page5.html">About MUJI</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.muji.com/storelocator/?c=kr">매장정보</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.muji.com/">Global site</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#">로그인</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">MY PAGE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">주문/배송</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">고객센터</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="tab">
+	<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #ffffff; border-color: #ffffff; color: #860f26; font-weight: 600;">
+    MUJI특별기획
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="page3.html">인기상품</a></li>
+    <li><a class="dropdown-item" href="page3.html">신상품</a></li>
+    <li><a class="dropdown-item" href="page3.html">온라인 한정사이즈</a></li>
+  </ul>
+</div>
+<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #ffffff; border-color: #ffffff; color: #860f26; font-weight: 600;">
+    할인상품
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="page3.html">가격 인하</a></li>
+    <li><a class="dropdown-item" href="page3.html">기간 한정</a></li>
+  </ul>
+</div>
+<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #ffffff; border-color: #ffffff; color: #860f26; font-weight: 600;">
+    아울렛
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="page3.html">의복잡화 아울렛</a></li>
+    <li><a class="dropdown-item" href="page3.html">생활잡화 아울렛</a></li>
+  </ul>
+</div>
+
+<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #ffffff; border-color: #ffffff; color: #860f26; font-weight: 600;">
+    의류잡화
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="page3.html">MUJI LABO</a></li>
+    <li><a class="dropdown-item" href="page3.html">남성복</a></li>
+    <li><a class="dropdown-item" href="page3.html">여성복</a></li>
+    <li><a class="dropdown-item" href="page3.html">아동복/마터니티</a></li>
+    <li><a class="dropdown-item" href="page3.html">이너웨어</a></li>
+    <li><a class="dropdown-item" href="page3.html">가방/신발</a></li>
+    <li><a class="dropdown-item" href="page3.html">액세서리/양말/우산</a></li>
+  </ul>
+</div>
+
+<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="page2.html" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #ffffff; border-color: #ffffff; color: #860f26; font-weight: 600;">
+    생활잡화
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="page3.html">패브릭</a></li>
+    <li><a class="dropdown-item" href="page3.html">가구/인테리어</a></li>
+    <li><a class="dropdown-item" href="page3.html">주방/생활용품</a></li>
+    <li><a class="dropdown-item" href="page3.html">헬스&뷰티/아로마</a></li>
+    <li><a class="dropdown-item" href="page3.html">화장품</a></li>
+    <li><a class="dropdown-item" href="page3.html">전자제품/기프트</a></li>
+    <li><a class="dropdown-item" href="page3.html">문구</a></li>
+  </ul>
+</div>
+
+<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #ffffff; border-color: #ffffff; color: #860f26; font-weight: 600;">
+    식품
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="page3.html">과자/음료/소스</a></li>
+  </ul>
+</div>
+<form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="검색어를 입력해주세요" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit" style="color: #ffffff; border-color: #860f26; background-color: #860f26; ">Search</button>
+      </form>
+</div>
+
+<div class="introduce">
+	<div class="head">
+		<h2 class="title">무인양품 MUJI</h2>
+		<p class="info">
+			무인양품은 브랜드가 아닙니다. 무인양품은 지구를 생각하고 소비의 미래를 바라보는 관점에서 상품을 만들어 냅니다.
+		</p>
+	</div>
+
+	<div class="pic">
+		<img src="images/MUJI.png">
+	</div>
+	<div class="content_container">
+		<div class="box">
+			<dl>
+				<dt class="box_left">ABOUT MUJI</dt>
+				<dd class="box_right">
+					<p class="box_text">
+						무인양품은 1980년도에 설립되어, <b>[철저한 생산 과정의 간소화], [소재의 선택], [포장의 간략화]</b>라는 3가지 발상을 기본으로 하여 보다 심플하고 합리적인 가격의 상품을 만들어내기 위해 노력해왔습니다. 무인양품은 <b>"라이프 스타일 제안"</b> 브랜드로서 의류, 악세서리, 퍼니쳐, 패브릭, 가정용품, 문구류, 식품 등에 걸쳐서 일상생활에 없어서는 안될 TOTAL 상품을 제공하고 있습니다.
+					</p>
+				</dd>
+				
+			</dl>
+		
+		</div>
+		<div class="box">
+			<dl>
+				<dt class="box_left">COMPANY<br>PROFILE</dt>
+				<dd class="box_right">
+					<table class="table">
+						<caption>COMPANY PROFILE</caption>
+						<colgroup>
+							<col style="width: 160px">
+							<col style="max-width: 800px">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th scope="row">회사명</th>
+								<td>무인양품(株)MUJI KOREA CO., Ltd
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">대표이사</th>
+								<td>成川卓也 (나루카와 타쿠야)
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">주소지</th>
+								<td>서울특별시 서대문구 연세로 12, 피델리아 빌딩 7층(우편 번호) 03779
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">설립</th>
+								<td>2004년 12월 15일(합작: 일본 ㈜양품계획 60%, 롯데상사㈜ 40%)
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</dd>
+				
+			</dl>
+			
+		</div>
+	</div>
+</div>
+
+<footer>
+	<ul class="sns">
+		<li><a href="#"><img src="instagram.png" alt=""></a></li>
+		<li><a href="#"><img src="facebook.png" alt=""></a></li>
+	</ul>
+	<h2 class="footerlogo">MUJI</h2>
+	<ul class="copyright">
+		<li>롯데쇼핑 주식회사 대표이사 강희태</li>
+		<li>서울특별시 송파구 올림픽로 300 롯데월드타워 26층</li>
+		<li>사업자등록번호:529-85-00774(롯데쇼핑(주)e커머스사업부)</li>
+		<li>통신판매업 신고: 2019-서울송파-0158</li>
+	</ul>
+
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
